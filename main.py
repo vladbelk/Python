@@ -1,8 +1,7 @@
 try:
-    print("Довжина сторін прямокутника")
-    a = float(input("a = "))
-    b = float(input("b = "))
-    print("Площа: %.2f"% (a*b))
+    print("Nothing")
+    print("will work")
+    print("unless you do")
 
 except Exception as e:
     print(e)

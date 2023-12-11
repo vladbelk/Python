@@ -1,8 +1,9 @@
 try:
-    print('\033[33m"Life is what happens\033[33m')
-    print("when")
-    print('\033[33myou are buisy making other plans"\033[0m')
-    print("John Lennon")
+    print('\033[33m"Anyone who\033[33m')
+    print("stops")
+    print("learning is old,")
+    print('\033[33mwhether at twenty or eighty"\033[0m')
+    print("Henry Ford")
 
 except Exception as e:
     print(e)

@@ -1,14 +1,8 @@
 try:
-    print("to be")
-    def out_red(text):
-        print("\033[31m{}".format(text))
-    out_red("or not")
-    def out_red(text):
-        print("\033[0m{}".format(text))
-    out_red("to be")
-
-
-
+    print('\033[33m"Life is what happens\033[33m')
+    print("when")
+    print('\033[33myou are buisy making other plans"\033[0m')
+    print("John Lennon")
 
 except Exception as e:
     print(e)

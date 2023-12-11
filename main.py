@@ -1,9 +1,14 @@
 try:
-    a = 7
-    b = 8
-    c = 9
-    print(a, '+', b, '+', c, '=', a+b+c)
-    print(a, '*', b, '*', c, '=', a*b*c)
+    def area_of_rhombus(side, height):
+
+        return side * height
+
+
+    side = float(input("Введіть довжину сторони ромба: "))
+
+    height = float(input("Введіть висоту ромба: "))
+
+    print("Площа ромба:", area_of_rhombus(side, height))
 
 
 except Exception as e:

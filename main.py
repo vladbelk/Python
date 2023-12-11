@@ -1,8 +1,14 @@
 try:
-    a=5
-    b=6
-    print(a+b)
-    print(a-b)
-    print(a*b)
+    print("to be")
+    def out_red(text):
+        print("\033[31m{}".format(text))
+    out_red("or not")
+    def out_red(text):
+        print("\033[0m{}".format(text))
+    out_red("to be")
+
+
+
+
 except Exception as e:
-   print(e)
+    print(e)
